@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice Q3</title>
+</head>
+
+<body>
+    <form action="/action.php">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <br>
+        </div>
+        
+        <div>
+            <label for="sex">Sex:</label>
+            <input type="radio" name="sex" id="Male" value="m">
+            <label for="Male">Male</label>
+            <input type="radio" name="sex" id="Female" value="f">
+            <label for="Female">Female</label>
+            <br>
+        </div>
+        
+        <div>
+            <label for="Country">Country:</label>
+            <select name="Country" id="Country">
+                <option>Select an option</option>
+                <option value="IND">India</option>
+                <option value="AUS">Austrlia</option>
+                <option value="EN">England</option>
+                <option value="NZ">Newzeland</option>
+                <option value="SA">South Africa</option>
+                <br>
+            </select>
+        </div>
+        
+        <div>
+            <label for="msg">Message:</label>
+            <br>
+            <textarea name="Message" id="msg" cols="30" rows="4"></textarea>
+            <br>
+        </div>
+
+        <div>
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <label for="newsletter">Subscribe?</label>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
